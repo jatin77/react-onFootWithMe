@@ -1,0 +1,52 @@
+.menuBox {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  width: 800px;
+  width: 80%;
+  margin: auto;
+  background: #262d7e;
+  text-align: center;
+  z-index: 1000;
+  border-radius: 5px;
+
+  opacity: 0;
+  transition: all .3s ease-out;
+  pointer-events: none;
+  box-shadow: 0 1px 5px #000;
+}
+
+.menuBox.open {
+
+  transform: translate(-50%, -50%);
+  top: 50%;
+  opacity: 1;
+  transition: all .3s ease-out;
+
+}
+
+.menuBox-content {
+  padding: 1rem;
+
+}
+
+.menuBox-content h1 {
+  color: #fff;
+  border-bottom: .1rem solid #cccccc;
+  padding-bottom: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.menuBox-content ul {
+  list-style: none;
+}
+
+.menuBox-content li {
+  margin-bottom: 1rem;
+}
+
+.menuBox-content a {
+  text-decoration: none;
+  color: #fff;
+}

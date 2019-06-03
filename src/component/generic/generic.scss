@@ -1,0 +1,444 @@
+.generic-one {
+  background: #262d7e;
+
+  &-inner {
+    background-color: #3e448c;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+    text-align: right;
+    padding: 1rem 0 4rem 0;
+  }
+
+  &-content {
+    width: 950px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    align-items: center;
+    color: #fff;
+
+    @media (max-width: 540px) {
+      grid-template-columns: auto;
+      grid-template-areas:
+        'first'
+        'second';
+      grid-row-gap: 1rem;
+
+      &-image {
+        grid-area: first;
+      }
+    }
+
+    &-image {
+      img {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 50%;
+
+        @media (max-width: 768px) {
+          width: 9rem;
+          height: 9rem;
+        }
+
+        @media (max-width: 540px) {
+          width: 7.5rem;
+          height: 7.5rem;
+        }
+      }
+    }
+  }
+
+  &-text {
+    @media (max-width: 540px) {
+      grid-area: second;
+    }
+
+    h2 {
+      border-bottom: 0.1rem solid #666666;
+      margin-bottom: 0.7rem;
+    }
+
+    p {
+      color: #e5e5e5;
+    }
+
+    .learn-more {
+      margin-top: 0.8rem;
+
+      button {
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border-radius: 50%;
+        border: 0.1rem solid #666666;
+        color: #fff;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+/*generic two*/
+.generic-two {
+  background: #565b9a;
+
+  &-inner {
+    background-color: #262d7e;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    text-align: left;
+    padding: 1rem 0 4rem 0;
+  }
+
+  &-content {
+    width: 950px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    align-items: center;
+    color: #fff;
+
+    @media (max-width: 540px) {
+      grid-template-columns: auto;
+      grid-template-areas:
+        'first'
+        'second';
+      grid-row-gap: 1rem;
+
+      &-image {
+        grid-area: first;
+      }
+    }
+
+    &-image {
+      img {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 50%;
+
+        @media (max-width: 768px) {
+          width: 9rem;
+          height: 9rem;
+        }
+
+        @media (max-width: 540px) {
+          width: 7.5rem;
+          height: 7.5rem;
+        }
+      }
+    }
+  }
+
+  &-text {
+    @media (max-width: 540px) {
+      grid-area: second;
+    }
+
+    h2 {
+      border-bottom: 0.1rem solid #666666;
+      margin-bottom: 0.7rem;
+    }
+
+    p {
+      color: #e5e5e5;
+    }
+
+    .learn-more {
+      margin-top: 0.8rem;
+
+      button {
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border-radius: 50%;
+        border: 0.1rem solid #666666;
+        color: #fff;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.generic-three {
+  background: #2e3141;
+
+  &-inner {
+    background: #565b9a;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+    text-align: right;
+    padding: 1rem 0 4rem 0;
+  }
+
+  &-content {
+    width: 950px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    align-items: center;
+    color: #fff;
+
+    @media (max-width: 540px) {
+      grid-template-columns: auto;
+      grid-template-areas:
+        'first'
+        'second';
+      grid-row-gap: 1rem;
+
+      &-image {
+        grid-area: first;
+      }
+    }
+
+    &-image {
+      img {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 50%;
+
+        @media (max-width: 768px) {
+          width: 9rem;
+          height: 9rem;
+        }
+
+        @media (max-width: 540px) {
+          width: 7.5rem;
+          height: 7.5rem;
+        }
+      }
+    }
+  }
+
+  &-text {
+    @media (max-width: 540px) {
+      grid-area: second;
+    }
+
+    h2 {
+      border-bottom: 0.1rem solid #666666;
+      margin-bottom: 0.7rem;
+    }
+
+    p {
+      color: #e5e5e5;
+    }
+
+    .learn-more {
+      margin-top: 0.8rem;
+
+      button {
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border-radius: 50%;
+        border: 0.1rem solid #666666;
+        color: #fff;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+/*palets cards*/
+.palets {
+  background: linear-gradient(to top,
+      rgba(46, 49, 65, 0.5),
+      rgba(46, 49, 65, 0.5));
+
+  &-inner {
+    background-color: #2e3141;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    text-align: left;
+    padding: 1rem 0 12rem 0;
+
+    @media (max-width: 768px) {
+      padding: 1rem 0 22rem 0;
+    }
+  }
+
+  &-about {
+    width: 950px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  &-intro {
+    h2 {
+      color: #fff;
+      border-bottom: 0.1rem solid #666666;
+      margin-bottom: 0.7rem;
+    }
+
+    p {
+      color: #e5e5e5;
+    }
+  }
+
+  .palet-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+
+    &-one {
+      background-color: #353849;
+      border-radius: 5px;
+
+      &-image {
+        img {
+          max-width: 100%;
+        }
+      }
+
+      &-content {
+        padding: 0 1rem 1rem 1rem;
+
+        h3 {
+          color: #fff;
+          border-bottom: 0.1rem solid #666666;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          color: #e5e5e5;
+        }
+
+        .learn-more {
+          margin-top: 1.2rem;
+
+          button {
+            margin-right: 1rem;
+            width: 2rem;
+            height: 2rem;
+            background: transparent;
+            border-radius: 50%;
+            border: 0.1rem solid #666666;
+            color: #fff;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*form*/
+.form {
+  background-color: #2e3141;
+  background-image: linear-gradient(to top,
+      rgba(46, 49, 65, 0.5),
+      rgba(46, 49, 65, 0.5)),
+    url('black-and-white-black-and-white-fog-1061623.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+
+  &-inner {
+    width: 950px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  &-header {
+    h1 {
+      color: #1a1a1a;
+      border-bottom: 0.1rem solid #666666;
+      margin-bottom: 0.8rem;
+    }
+  }
+
+  &-main {
+    padding: 1.5rem 0 3rem 0;
+  }
+
+  &-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    input {
+      height: 2.5rem;
+      background: transparent;
+      outline: none;
+      border: 0.1rem solid #666666;
+    }
+
+    .label {
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+  }
+
+  textarea {
+    background: transparent;
+    outline: none;
+    border: 0.1rem solid #666666;
+  }
+
+  button {
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: 0.1rem solid #666666;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    CURSOR: POINTER;
+  }
+}
+
+.contact {
+  padding: 2rem 0;
+
+  &-field {
+    display: flex;
+
+    &:not(:last-of-type) {
+      margin-bottom: 1.5rem;
+    }
+
+    &-icon {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 3rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: .1rem solid #666666;
+    }
+
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0 .5rem 0;
+  font-weight: bold;
+}
